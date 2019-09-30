@@ -1,3 +1,4 @@
+else if {
 function carLoanPayment(principal, rate, periodMonths) {
   let payment = principal * (1 + (rate/100) * (periodMonths/12))
   let monthlyPayment = payment/periodMonths

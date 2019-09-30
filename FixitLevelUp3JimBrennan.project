@@ -29,6 +29,14 @@
             "carLoan", 
             "carLoan.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "Decision", 
+            "Decision.json"
+          ]
         }
       ], 
       "configxml": null, 
