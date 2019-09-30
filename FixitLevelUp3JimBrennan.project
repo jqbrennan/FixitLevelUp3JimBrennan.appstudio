@@ -21,6 +21,14 @@
             "homeLoan", 
             "homeLoan.json"
           ]
+        }, 
+        {
+          "!type": "External", 
+          "file": [
+            "forms", 
+            "carLoan", 
+            "carLoan.json"
+          ]
         }
       ], 
       "configxml": null, 
