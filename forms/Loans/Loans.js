@@ -1,6 +1,6 @@
 do {
   let decision = prompt("enter car for a car loan or home for a home loan")
-  if (decision == "car") {
+  if (decision == "home") {
     function homeLoanPayment(principal, rate, periodYears) {
       let payment = principal * (1 + (rate/100) * periodYears)
       let monthlyPayment =  payment/(periodYears * 12)
@@ -13,7 +13,7 @@ do {
 
     var homePayment = homeLoanPayment(homeAmount, homeRate, homePeriod)
     alert(`A home loan for $${homeAmount} over ${homePeriod} years at ${homeRate}% interest would have a monthly payment of $${homePayment}`)
-  } else if (decision == "home") {
+  } else if (decision == "car") {
     function carLoanPayment(principal, rate, periodMonths) {
       let payment = principal * (1 + (rate/100) * (periodMonths/12))
       let monthlyPayment = payment/periodMonths
