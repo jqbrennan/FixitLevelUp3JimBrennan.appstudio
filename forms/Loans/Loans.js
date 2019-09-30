@@ -12,7 +12,7 @@ do {
     let homePeriod = Number(prompt("What is the period (in years) of the loan?"))
 
     var homePayment = homeLoanPayment(homeAmount, homeRate, homePeriod)
-    alert(`A home loan for ${homeAmount} dollars over ${homePeriod} years at ${homeRate}% interest would have a monthly payment of ${homePayment}`)
+    alert(`A home loan for $${homeAmount} over ${homePeriod} years at ${homeRate}% interest would have a monthly payment of $${homePayment}`)
   } else if (decision == "home") {
     function carLoanPayment(principal, rate, periodMonths) {
       let payment = principal * (1 + (rate/100) * (periodMonths/12))
